@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+.HeaderSection{
+  background-color: #5db9ff;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.HeaderSection input{
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.HeaderSection button{
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px;
+}
+.HeaderSection button:hover{
+  background-color: white;
+  box-shadow: none;
+}
+.display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+  color: white;
+}
+
+.display h1{
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.display img{
+  width: 200px;
+  margin-top: -5px;
+}
+.display h3{
+  margin: 5px;
+   
+}
+
+
